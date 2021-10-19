@@ -16,8 +16,11 @@ block main
       a(href="#project-support") 同人组织支持
     .project-area
       .container
-        .project-item.products
-          .item-title#project-events
+        .fixed-title
+          h2 fixed title
+            span.bg-title fixed sub title
+        .project-item.products#project-events
+          .item-title
             h2 举办活动
               span.bg-title Events
           .product-block-list
@@ -69,7 +72,8 @@ block main
                       p 围绕东方Project的TED模式的知识与见解分享研讨会。
                       .action
                         a.button(target="_blank", href='https://thwiki.cc/%E4%B8%9C%E6%B7%B1%E8%A7%81%E8%AE%B2%E5%9D%9B') 了解更多
-          .item-title#project-business
+        .project-item.products#project-business
+          .item-title
             h2 业务运营
               span.bg-title Business Operation
           .product-block-list
@@ -95,7 +99,8 @@ block main
                         p 从活动报批到场地搭建、活动执行的一站式服务部门。
                         .action
                           a.button(target="_blank", href='./contact.pug') 联系我们
-          .item-title#project-support
+        .project-item.products#project-support
+          .item-title
             h2 同人组织支持
               span.bg-title Circle Support
           .product-block-list
