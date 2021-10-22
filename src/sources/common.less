@@ -21,12 +21,12 @@ html, body{
 }
 
 :root{
-  --skin-color1:#d8b55d;
-  --skin-color2:#7f843b;
-  --skin-color-hover:#f7cd6c;
-  --skin-color-back1-1:#d8b55d;
-  --skin-color-back1-2:#917c4c;
-  --skin-color-footer:#927a4f;
+  --skin-color1:#5bb3df;
+  --skin-color2:#9c9c9c;
+  --skin-color-hover:#71cbf8;
+  --skin-color-back1-1:rgb(91, 166, 201);
+  --skin-color-back1-2:#66ccffa9;
+  --skin-color-footer:#346d8a;
 }
 
 a{
@@ -36,6 +36,7 @@ a{
 
 a:link:hover{
   text-decoration: underline;
+  opacity: 0.895;
 }
 
 .container{
@@ -682,7 +683,7 @@ a.button:hover{
     font-size: 20px;
     font-weight: normal;
     background-color: var(--skin-color2);
-    background-image: linear-gradient(to top, rgb(216,181,93), rgb(145,124,76));
+    background-image: linear-gradient(to top, var(--skin-color-back1-1), var(--skin-color-back1-2));
     color: #fff;
     border-radius: 30px;
     height: 60px;
