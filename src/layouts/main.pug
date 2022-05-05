@@ -4,7 +4,7 @@ html(lang='zh')
     meta(charset='UTF-8')
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title 魅知文化
+    title 魅知株式会社
     link(rel='stylesheet' href='./sources/common.less')
     script(src="./sources/scripts/common.js")
     link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
@@ -21,11 +21,11 @@ html(lang='zh')
             span.mobile-header-button
               <svg t="1632766513780" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2422" width="200" height="200"><path d="M128 469.333333h768v85.333334H128zM128 213.333333h768v85.333334H128zM128 725.333333h768v85.333334H128z" fill="#927a4f" p-id="2423"></path></svg>
           .right
-            a(href='./index.pug', class=currentPage == 'index' ? 'active' : '') 首页
-            a(href='./about.pug', class=currentPage == 'about' ? 'active' : '') 关于
-            a(href='./project.pug', class=currentPage == 'project' ? 'active' : '') 活动 & 作品 & 服务
-            a(href='./join.pug', class=currentPage == 'join' ? 'active' : '') 加入我们
-            a(href='./contact.pug', class=currentPage == 'contact' ? 'active' : '') 联系我们
+            a(href='./index.pug', class=currentPage == 'index' ? 'active' : '') トップ
+            a(href='./about.pug', class=currentPage == 'about' ? 'active' : '') 会社概要
+            a(href='./project.pug', class=currentPage == 'project' ? 'active' : '') 活動 & ワークス & 服務
+            a(href='./join.pug', class=currentPage == 'join' ? 'active' : '') 採用情報
+            a(href='./contact.pug', class=currentPage == 'contact' ? 'active' : '') お問い合わせ
       .page-main
         block main
         div.BackToTop(style="display:none")
@@ -35,7 +35,7 @@ html(lang='zh')
             .left 
               img.site-logo(src="./sources/imgs/site-logo-white.png")
             .right
-              a © 2017-2021 天津魅知文化传播有限公司版权所有
-              a 网络文化经营许可证 津文执网文〔2019〕220-013号
-              a 违法信息举报邮箱comment@meizhi.info
-              a(href="https://jubao.tjcac.gov.cn/") 天津互联网违法和不良信息举报中心 
+              a Copyright (c) 2017 - 2022 MICHI INC. All Rights Reserved.
+              //- a 网络文化经营许可证 津文执网文〔2019〕220-013号
+              //- a 违法信息举报邮箱comment@meizhi.info
+              //- a(href="https://jubao.tjcac.gov.cn/") 天津互联网违法和不良信息举报中心 

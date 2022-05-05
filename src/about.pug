@@ -42,23 +42,42 @@ block main
   .page-header
     .header-background(style="background-image: url(./sources/imgs/header/a1.jpg)") 
     .container
-      h1 关于我们
+      h1 会社概要
       span.bg-title About Us 
   .timeline-area 
     .container
       .article
-        p 天津魅知文化公司成立于2017年，公司前身为成立于2010年的工作室，旨在发展中国的东方Project IP及爱好者社群。历年来先后组建翻译引进部门、游戏制作团队，承接原IP在中国的版权相关项目、立项书籍引进及组织线下粉丝活动。
-        p 2017年工作室开始公司化运作，举办系列交响音乐会和大型IP主题展、音乐LIVE，组织IP原作者见面会，扩大翻译引进发行业务，并成立游戏发行项目组。
-        p 2021年，魅知文化整体搬迁至杭州，开始新的篇章。
+        table(style="width:100%",align="center")
+          tr
+            th 会社名
+            td  魅知株式会社
+          tr
+            th 所在地
+            td  〒151-0072　東京都渋谷区幡ヶ谷１－１１－９ グローリオ笹塚５０５
+          tr
+            th 設立
+            td  2018年08月31日
+          tr
+            th 代表者        代表取締役
+            td  徐　博晨
+          tr
+            th 資本金
+            td  5,000,000円
+          tr
+            th 事業内容
+            td  ライブ配信、映像制作、イベント運営
+          tr
+            th 取引銀行
+            td  三菱UFJ銀行
       .timeline-box
-        each item in timeline
-          .item 
-            .content
-              h3 #{item.time}
-              p #{item.content}
-            if item.image 
-              .image-box
-                img(src='./sources/imgs/timeline/' + item.image)
-            else 
-              .image-box
+        //- each item in timeline
+        //-   .item 
+        //-     .content
+        //-       h3 #{item.time}
+        //-       p #{item.content}
+        //-     if item.image 
+        //-       .image-box
+        //-         img(src='./sources/imgs/timeline/' + item.image)
+        //-     else 
+        //-       .image-box
 
